@@ -1,0 +1,144 @@
+@media (max-width: 768px) {
+    /* Adjustments for header */
+    header nav {
+      display: block;
+      text-align: center;
+    }
+  
+    header nav a {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    /* Adjustments for product items */
+    .product-item {
+      width: 100%; /* Take full width */
+      margin: 10px 0; /* Adjust margins */
+    }
+  
+    .product-details {
+      padding: 10px; /* Adjust padding */
+    }
+  
+    .product-details img {
+      width: 100%; /* Take full width */
+      margin-bottom: 10px;
+    }
+  
+    /* Adjustments for newsletter */
+    .newsletter {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-right: 10px; /* Adjust margin */
+    }
+  
+    .newsletter input[type="email"] {
+      width: 100%; /* Take full width */
+      margin-bottom: 10px; /* Adjust margin */
+    }
+  
+    /* Adjustments for footer */
+    footer {
+      padding: 20px; /* Adjust padding */
+    }
+  
+    .footer-sections {
+      flex-direction: column; /* Stack sections */
+    }
+  
+    .footer-section {
+      margin-bottom: 20px; /* Adjust margin */
+    }
+  
+    /* Adjustments for login page */
+    .bg {
+      height: auto; /* Remove fixed height */
+    }
+  
+    .content {
+      width: 100%; /* Take full width */
+      padding: 20px; /* Adjust padding */
+    }
+  
+    /* Adjustments for contact page */
+    .contact-box {
+      display: flex;
+      flex-direction: column; /* Stack contact elements */
+      margin: 10px; /* Adjust margin */
+    }
+  
+    .inputbox,
+    .info {
+      width: 100%; /* Take full width */
+      margin: 10px 0; /* Adjust margin */
+    }
+  
+    /* Adjustments for services page */
+    #services {
+      padding-top: 50px; /* Adjust padding */
+      padding-bottom: 50px; /* Adjust padding */
+    }
+  
+    #services p {
+      margin: 20px; /* Adjust margin */
+    }
+  
+    #services .services-list {
+      flex-direction: column; /* Stack service items */
+    }
+  
+    #services .services-list li {
+      margin-bottom: 20px; /* Adjust margin */
+    }
+  
+    #services .services-list .service-img {
+      width: 100%; /* Take full width */
+    }
+  
+    /* Adjustments for about page */
+    #about-header {
+      height: 20vh; /* Reduce header height */
+    }
+  
+    #aboutus {
+      padding-top: 40px; /* Adjust padding */
+      padding-bottom: 40px; /* Adjust padding */
+    }
+  
+    #aboutus .aboutus-col {
+      flex-basis: 100%; /* Take full width */
+      padding: 20px; /* Adjust padding */
+    }
+  
+    #aboutus .about-button {
+      margin-top: 20px; /* Adjust margin */
+    }
+  
+    /* Adjustments for manage page */
+    #manage h1 {
+      margin-top: 20px; /* Adjust margin */
+      margin-bottom: 30px; /* Adjust margin */
+    }
+  
+    .team-col {
+      width: 100%; /* Take full width */
+      margin: 10px 0; /* Adjust margin */
+    }
+  
+    .team-img {
+      display: none; /* Hide team image */
+    }
+  
+    /* Adjustments for signup page */
+    .signup-form {
+      padding: 20px; /* Adjust padding */
+    }
+  
+    /* Adjustments for forgot password page */
+    .forgot-password-container {
+      padding: 20px; /* Adjust padding */
+    }
+  }
+  
