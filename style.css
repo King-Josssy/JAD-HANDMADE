@@ -722,7 +722,7 @@ info:hover{
 #aboutus{
 	width: 80%;
 	margin: auto;
-	padding-top: 80px;
+	padding-top: 60px;
 	padding-bottom: 20px;
 	align-items: center;
 }
@@ -784,7 +784,7 @@ info:hover{
 	text-align: center;
 	flex-direction: column;
 	padding: 14px;
-	margin-top: 200px;
+	margin-top: 250px;
 	margin-bottom: 150px;
 }
 
