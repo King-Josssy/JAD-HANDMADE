@@ -7,24 +7,21 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-
+  <?php include 'db_connection.php'; ?>
   <div class="bg">
     <div class="content">
       <header>JAD HANDMADE CRAFTS</header>
       <img src="images/log.png" alt="font pic" width="520px">
       <form action="login.php" method="post">
         <div class="form-group" method="post">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required placeholder="please enter your email">
-        </div>
-        <div class="form-group">
-          <label for="password">Password:</label>
-          <input type="password" id="password" name="password" required placeholder="please enter your password">
+            
+            <input type="text" id="username" name="username" placeholder="Username">
+            
+            <input type="password" id="password" name="password" placeholder="Password">
         </div>
         <div class="button-container">
           <button class="login-button">
-            <a href="JAD Home Page.html">Login</a>
+            <a href="">Login</a>
           </button>
           <a href="forgot.html" class="forgot-password">Forgot Password?</a>
         </div>
@@ -63,7 +60,7 @@
         </ul>
       </div>
     </div>
-    <p>Designed by King Jossy</p>
+    <p>copyright &#169;2024 King Jossy all rights reserved</p>
   </footer>
 
   <script src="script.js"></script> 

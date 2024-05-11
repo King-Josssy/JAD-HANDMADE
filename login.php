@@ -1,14 +1,14 @@
 <?php
-$email = $_POST['email'];
+$username = $_POST['Username']; 
 $password = $_POST['password'];
 // Database connection
-$conn = new mysqli('localhost','root','','log');
+$conn = new mysqli('localhost','root','','users');
 if($conn->connect_error){
     echo "$conn->connect_error";
     die("Connection Failed : ". $conn->connect_error);
 } else {
-    $stmt = $conn->prepare("insert into logi( email, password) values(?, ?,)");
-    $stmt->bind_param("ss", $email, $password);
+    $stmt = $conn->prepare("INSERT INTO logi (Username, password) VALUES (?, ?)"); 
+    $stmt->bind_param("ss", $Username, $password); // Use consistent variable names
     $execval = $stmt->execute();
     echo $execval;
     echo "Registration successfully...";
@@ -16,19 +16,3 @@ if($conn->connect_error){
     $conn->close();
 }
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-0
