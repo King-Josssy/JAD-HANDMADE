@@ -2,14 +2,14 @@
 include "db_connect.php";
 
 // Get form data
-$username = $_POST['username'];
-$email = $_POST['email'];
-
-
-$password = password_hash($_POST['password'], PASSWORD_DEFAULT); // Hash the password
+$Name = $_POST['name'];
+$Email = $_POST['email'];
+$Tel no = $_POST['Tel no'];
+$Credit no = $_POST['credit no'];
+$Password = password_hash($_POST['password'], PASSWORD_DEFAULT); // Hash the password
 
 // Insert user into database
-$sql = "INSERT INTO customer ( username,email,password) VALUES ('$username', '$email', '$password' )";
+$sql = "INSERT INTO login ( Name,Email,Tel no,Credit no,Password) VALUES ('$Name', '$Email ', ,'$Tel no ','$Credit no ','$Password ' )";
 
 if ($conn->query($sql) === TRUE) {
     // Close MySQL connection

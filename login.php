@@ -15,7 +15,7 @@ $password = mysqli_real_escape_string($conn, $_POST['password']);
 $query = "SELECT * FROM custom WHERE username='$username' AND password='$password'";
 $result = mysqli_query($conn, $query);
 
-// Check if the query was successful
+
 if (mysqli_num_rows($result) > 0) {
 	// Login successful, render home page
 	include 'index.html';
